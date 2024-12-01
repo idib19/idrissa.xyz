@@ -11,7 +11,7 @@ export function SiteHeader() {
   return (
     <header className="py-8 flex items-center justify-between">
       <Link href="/" className="text-lg font-medium">
-        idrissa.xyz
+        Idrissa Berthé
       </Link>
 
       {/* Desktop Navigation */}
