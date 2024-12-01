@@ -7,19 +7,20 @@ export interface Repository {
 }
 
 export const repositories: Repository[] = [
-  {
-    name: "HTTP Server",
-    description: "A custom HTTP server implementation that handles basic CRUD operations with SQL database integration.",
-    url: "https://github.com/idib19/HTTP-SERVER",
-    topics: ["Python", "SQL", "HTTP", "CRUD"],
-    language: "Python"
-  },
+
   {
     name: "AI SMS Agent",
     description: "An intelligent SMS-based appointment booking system powered by Anthropic's AI and integrated with Twilio.",
     url: "https://github.com/idib19/SMS-AI-AGENT",
     topics: ["Node.js", "MongoDB", "Twilio", "Anthropic"],
     language: "JavaScript"
+  },
+  {
+    name: "HTTP Server",
+    description: "A custom HTTP server implementation that handles basic CRUD operations with SQL database integration.",
+    url: "https://github.com/idib19/HTTP-SERVER",
+    topics: ["Python", "SQL", "HTTP", "CRUD"],
+    language: "Python"
   },
   {
     name: "Ikasugu",
