@@ -11,7 +11,7 @@ export const repositories: Repository[] = [
   {
     name: "AI SMS Agent",
     description: "An intelligent SMS-based appointment booking system powered by Anthropic's AI and integrated with Twilio.",
-    url: "https://github.com/idib19/SMS-AI-AGENT",
+    url: "https://github.com/idib19/SMS-AI-AGENT-FOR-REPAIR-STORE",
     topics: ["Node.js", "MongoDB", "Twilio", "Anthropic"],
     language: "JavaScript"
   },
