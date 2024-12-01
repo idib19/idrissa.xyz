@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { posts } from '@/lib/posts';
+import { Post, posts } from '@/lib/posts';
 
-function groupPostsByYear(posts: typeof posts) {
+function groupPostsByYear(posts: Post[]) {
   return posts.reduce((acc, post) => {
     const year = new Date(post.date).getFullYear();
     if (!acc[year]) {

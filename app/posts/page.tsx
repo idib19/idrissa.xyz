@@ -2,7 +2,16 @@ import { BackButton } from '@/components/back-button';
 import { posts } from '@/lib/posts';
 import Link from 'next/link';
 
-function groupPostsByYear(posts: typeof posts) {
+// Define a type for a single post
+type Post = {
+  date: string;
+  slug: string;
+  title: string;
+  // Add other properties of a post if necessary
+};
+
+// Update the function to use the Post type
+function groupPostsByYear(posts: Post[]) {
   return posts.reduce((acc, post) => {
     const year = new Date(post.date).getFullYear();
     if (!acc[year]) {
@@ -10,7 +19,7 @@ function groupPostsByYear(posts: typeof posts) {
     }
     acc[year].push(post);
     return acc;
-  }, {} as Record<number, typeof posts>);
+  }, {} as Record<number, Post[]>);
 }
 
 export default function PostsPage() {
