@@ -24,7 +24,7 @@ export default function Home() {
               <a href="mailto:idiberthe19@gmail.com">Get in touch</a>
             </Button>
             <Button variant="outline" asChild>
-              <Link href="/posts">Read my posts</Link>
+              <Link href="/ai-sms-agent">View my latest project</Link>
             </Button>
           </div>
         </section>
@@ -43,7 +43,6 @@ export default function Home() {
           <span className="border-b border-muted-foreground">Telus</span>
           <span>and</span>
           <span className="border-b border-muted-foreground">Ikasugu</span>
-          
         </div>
       </footer>
     </div>
