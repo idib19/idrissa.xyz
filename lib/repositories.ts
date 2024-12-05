@@ -25,7 +25,7 @@ export const repositories: Repository[] = [
   {
     name: "Ikasugu",
     description: "A scalable multi-tenant e-commerce platform with modern authentication and payment processing.",
-    url: "https://github.com/idib19/NODE-X-1",
+    url: "https://store.ikasugu.app",
     topics: ["Next.js", "Prisma", "TypeScript"],
     language: "TypeScript"
   }
