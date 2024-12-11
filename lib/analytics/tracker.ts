@@ -21,7 +21,7 @@ export async function trackPageView(path: string): Promise<void> {
   };
 
   try {
-    await fetch(`http://localhost:3000${ANALYTICS_ENDPOINT}/pageview`, {
+    await fetch(`${ANALYTICS_ENDPOINT}/pageview`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(visitorInfo),
